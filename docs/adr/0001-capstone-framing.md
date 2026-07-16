@@ -15,9 +15,6 @@ The solution is intended for
 why now?
 The rapid growth of Generative AI has led to an explosion of frameworks such as LangChain, LlamaIndex, FastAPI, OpenAI, CrewAI, AutoGen, and many others. Their documentation is extensive and evolves frequently, making it increasingly difficult for developers to stay up to date.
 
-Reference from :
-OpenAI. (2026). ChatGPT(GPT-5.5)[Large language model]. https://chat.openai.com/
-
 ## Decision — Solution Framing Canvas
 | Box | Your answer |
 |-----|-------------|
