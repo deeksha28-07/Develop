@@ -29,19 +29,19 @@ OpenAI. (2026). ChatGPT(GPT-5.5)[Large language model]. https://chat.openai.com/
 | **Decision boundaries** | The agent can retrieve documentation, choose retrieval strategies, and generate answers based only on indexed documentation. It cannot fabricate information, modify documentation, access external systems without permission, or perform actions on behalf of the user.|
 ## Consequences
 - **Positive:** 
--Provides fast, accurate, and context-aware answers from open-source documentation.
+    -Provides fast, accurate, and context-aware answers from open-source documentation.
 
--Reduces the time developers spend manually searching through documentation.
+    -Reduces the time developers spend manually searching through documentation.
 
--Generates grounded responses with citations, improving trust and reliability.
+    -Generates grounded responses with citations, improving trust and reliability.
 - **Negative / risks:** 
--Response quality depends on the quality and freshness of the indexed documentation.
+    -Response quality depends on the quality and freshness of the indexed documentation.
 
--Maintaining the vector database requires periodic re-indexing as documentation changes.
+    -Maintaining the vector database requires periodic re-indexing as documentation changes.
 - **Things we'll re-visit:** 
--Evaluate support for additional documentation sources (e.g., GitHub repositories, Stack Overflow, API references).
+    -Evaluate support for additional documentation sources (e.g., GitHub repositories, Stack Overflow, API references).
 
--Assess the need for long-term conversational memory and more advanced agent workflows (e.g., multi-agent collaboration or autonomous task execution).
+    -Assess the need for long-term conversational memory and more advanced agent workflows (e.g., multi-agent collaboration or autonomous task execution).
 
 Reference from :
 OpenAI. (2026). ChatGPT(GPT-5.5)[Large language model]. https://chat.openai.com/
