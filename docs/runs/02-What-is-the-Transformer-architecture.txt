@@ -1,0 +1,17 @@
+The Transformer architecture is a deep learning model introduced in the paper "Attention is All You Need" by Vaswani et al. in 2017. It is primarily used for natural language processing tasks but has also been applied to other domains.
+
+Key features of the Transformer architecture include:
+
+1. **Self-Attention Mechanism**: This allows the model to weigh the importance of different words in a sentence when encoding them, enabling it to capture contextual relationships.
+
+2. **Positional Encoding**: Since Transformers do not have a built-in notion of sequence order (unlike RNNs), positional encodings are added to input embeddings to provide information about the position of words in a sequence.
+
+3. **Multi-Head Attention**: This extends the self-attention mechanism by allowing the model to focus on different parts of the input simultaneously, improving its ability to capture various relationships.
+
+4. **Feed-Forward Networks**: Each attention output is passed through a feed-forward neural network, which is applied independently to each position.
+
+5. **Layer Normalization and Residual Connections**: These techniques help stabilize training and improve convergence.
+
+6. **Encoder-Decoder Structure**: The architecture consists of an encoder that processes the input and a decoder that generates the output, making it suitable for tasks like translation.
+
+Transformers have become foundational in NLP and have inspired many models, including BERT, GPT, and others.
